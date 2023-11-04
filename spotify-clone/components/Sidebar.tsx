@@ -11,11 +11,11 @@ import SidebarItem from "./SidebarItem";
 import Library from "./Library";
 
 
-interface SiderbarProps {
+interface SidebarProps {
     children: React.ReactNode;
 }
 
-const Sidebar: React.FC<SiderbarProps> = ({
+const Sidebar: React.FC<SidebarProps> = ({
     children
 }) => {
     const pathname = usePathname();
